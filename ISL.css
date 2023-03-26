@@ -1,0 +1,20 @@
+/* Content Skew Left*/
+.ISLcontainer{
+	margin:2%;
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	min-height:60vh;
+	background-color: rgb( 240, 240, 230);
+}
+.ISLcontent{
+	grid-column: 2/3;
+	background-color: rgb(200,200,200);
+	margin:20px;
+	padding:1%;
+	font-size:200%;
+}
+.ISLimage{
+	margin:20px;%;
+	grid-column:1/2;
+	background-color:rgb(255,255,255);
+}

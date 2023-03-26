@@ -1,0 +1,32 @@
+/*css square format*/
+
+
+.quad{
+	margin-left: 10%;
+	margin-right: 10%;
+	display:grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	min-height: 70vh;	
+}
+.quad1{
+	background-color: rgb(30,30,60);
+	grid-area: 1/1/2/2;
+	margin: 4%;
+}
+.quad2{
+	background-color: rgb(30,30,60);
+	grid-area: 2/1/3/2;
+	margin: 4%;
+}
+.quad3{
+	background-color: rgb(30,30,60);
+	grid-area: 1/2/2/3;
+	margin: 4%;
+}
+
+.quad4{
+	background-color: rgb(30,30,60);
+	grid-area: 2/2/3/3;
+	margin: 4%;
+}
