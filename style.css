@@ -30,7 +30,7 @@ nav{
 } 
 .logoimage{
 	height:100%;
-	margin-left:-30px;
+	object-fit:fill;
 }
 .logoImageContainer{
 	float:left;
@@ -38,6 +38,8 @@ nav{
 	width:40%;
 	overflow:hidden;
 	background-color: rgb(50,50,50);	
+	padding-right:2%;
+	padding-left:2%;
 }
 .logoname{
 	text-align:center;
@@ -55,7 +57,7 @@ nav{
 .buttonContainer{
 	grid-area: 2 / 2 / 3 / 3;
 	color:rgb(255,255,255);
-	margin-top:2%;
+	margin-top:1%;
 }
 .divnlink:hover{
 	color:rgb(255,255,255);
@@ -75,19 +77,6 @@ nav{
 	font-size:150%;
 	height:100%;
 }
-.navtext{
-	grid-area: 1 / 2 / 2 / 3;
-	padding:3%;
-	padding-right:50%;
-}
-.navtext>h1{
-	background-color: rgb(50,50,50);
-	text-align: center;
-	margin:10px;
-	margin-bottom:-10px;
-	padding:1%;
-	border-radius:10px;
-}
 .navpop:hover{
 	color:rgb(200,200,200);
 }
@@ -102,7 +91,7 @@ nav{
 /*footer*/
 footer{
 	display:grid;
-	grid-template-columns:1fr 1fr;
+	grid-template-columns:1fr 2fr;
 	min-height:30vh;
 	background-color: rgb(80, 100, 100);
 }
@@ -133,48 +122,45 @@ footer{
 	padding-top:100%;
 }
 .FSPCAImage{
-	word-wrap: break-word;
 	grid-area:1/1/2/2;
-	background-color:rgb(255,255,255);
-	width:100%;
+	width:150%;
+	position:relatvie;
 }
 .FSparkArenaImage{
-	word-wrap: break-word;
 	grid-area: 2/2/3/3;
-	background-color:rgb(255,255,255);
 	width:100%;
+	position:relative;
+	float:right;
 }
-.FSPCA{
+.FContaintext{
 	display:block;
-	grid-area:1/2/2/3;
-	padding-left:2%;
+	grid-area:1/2/3/3;
+	padding-left:1%;
 	text-align:center;
-	padding-top:10%;
 }
-.FSparkArena{
-	display:block;
-	grid-area:2/2/3/3;
-	padding-left:2%;
-	text-align:center;
-	padding-top:10%;
+.FContaintext>a{
+	font-size:130%;
 }
 /*footer right*/
 .footerContainRight{
 	display:grid;
 	grid-template-rows: 1fr 1fr;
+	margin:-1%;
 }
 .FooterContext1{
 	grid-row: 1/2;
 	background-color:rgb(200,200,200);
 	margin-top: 2%;
+	margin-left:1%;
 	text-align:center;
 	margin-right:2%;
 }
 .FooterContext2{
 	grid-row: 2/3;
 	background-color:rgb(200,200,200);
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-right:2%;
+	margin-left:1%;
 	margin-bottom: 2%;
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
