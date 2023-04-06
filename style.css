@@ -125,14 +125,16 @@ footer{
 }
 .FSPCAImage{
 	grid-area:1/1/2/2;
-	width:150%;
+	width:120%;
+	margin:10%;
 	position:relatvie;
 }
 .FSparkArenaImage{
 	grid-area: 2/2/3/3;
-	width:100%;
-	position:relative;
-	float:right;
+	width:7%;
+	margin-top:6%;
+	margin-left:2%;
+	position:absolute
 }
 .FContaintext{
 	display:block;
@@ -198,5 +200,5 @@ footer{
 }
 .socialMediaButton{
 	margin-top:-10%;
-	max-height:10vh;
+	max-height:8vh;
 }

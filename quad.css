@@ -9,7 +9,7 @@
 	grid-template-columns: 1fr 1fr;
 	min-height: 70vh;	
 }
-.quad>div{
+.quad>#quad1{
 	background-color: rgb(130,130,160);
 	margin: 2%;
 	border-radius:5px;
@@ -27,11 +27,11 @@
 .quad4{
 	grid-area: 2/2/3/3;
 }
-.quad1:hover, .quad2:hover, .quad3:hover, .quad4:hover{
+/*.quad1:hover, .quad2:hover, .quad3:hover, .quad4:hover{
 	filter:blur(2px);
-}
+}*/
 
-.quad>div>h2{
+.quad>div>a>h2{
 	margin-top: 2%;
 	font-size:200%;
 	text-decoration:underline;
@@ -45,11 +45,5 @@
 	font-size:200%;
 }
 .quadFooter{
-	margin:5%;
-	margin-top:0%;
-	margin-bottom:2%;
-	font-size:80%;
-}
-.quadSlide{
-	
+	margin:3%;
 }

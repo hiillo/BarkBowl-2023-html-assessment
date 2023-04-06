@@ -15,6 +15,14 @@
 	background-image: radial-gradient( rgb(100,100,100, 0.9), rgb(200,200,200, 0.5));
 	border-radius: 5px;
 }
+#headerimg1{
+	margin-left:-10%;
+	height:50%;
+}
+#headerimg2{
+	height:30%;
+}
+
 .Himage0, .Himage1{
 	display:block;
 	width:70%;
@@ -96,7 +104,7 @@
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
-  z-index:3;
+  z-index:10;
 }
 
 /* Position the "next button" to the right */
