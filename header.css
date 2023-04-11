@@ -1,0 +1,14 @@
+/*Header css file*/
+.Header{
+	margin:3%;
+	text-align:center;
+	border-bottom:10px solid rgb(0,0,0);
+}
+.Header1{
+	font-size:600%;
+}
+.Header2{
+	font-size:300%;
+}
+.HeaderFootNote{
+}
