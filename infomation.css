@@ -1,0 +1,50 @@
+.contextinfomation{
+	margin:3%;
+	font-size:200%;
+}
+legend{
+	margin-left:3%;
+}
+label{
+	margin-left:5%;
+	
+}
+input{
+	margin-left:5%;
+	padding:1%;
+	width:80%;
+	font-size:70%;
+}
+.infomation2{
+	width:49%;
+}
+.infomation1{
+	width:25%;
+}
+.infomationbutton{
+	padding-left:3%;
+	padding-right:3%;
+	margin-bottom:3%;
+}
+.infomationbutton{
+	font-size:100%;
+	width:40%;
+}
+fieldset>div{
+	display:inline-block;
+}
+.infomation1{
+	float:left;
+}
+button{
+	float:left;
+}
+textarea{
+	width:70vw;
+	font-size:100%;
+	height:50vh;
+	margin-left:5%;
+}
+.infomationadjust{
+	margin-left:-2.5%;
+}

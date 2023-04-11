@@ -9,12 +9,25 @@
 .ISLcontent{
 	grid-column: 2/3;
 	background-color: rgb(200,200,200);
-	margin:20px;
+	margin:2%;
 	padding:1%;
 	font-size:200%;
 }
 .ISLimage{
-	margin:20px;%;
+	margin:2%;
 	grid-column:1/2;
+	object-fit:contain;
 	background-color:rgb(255,255,255);
+}
+.ISLimage>#tickets{
+	height:60vh;
+}
+.ISLcontent>h1{
+	text-align:center;
+}
+.ISLcontent>p{
+	margin:10%;
+	margin-top:5%;
+	margin-bottom:5%;
+	font-size:80%;
 }

@@ -37,6 +37,12 @@
 	text-decoration:underline;
 	text-align:center;
 }
+.quad>div>h2{
+	margin-top: 2%;
+	font-size:200%;
+	text-decoration:underline;
+	text-align:center;
+}
 .quadContext{
 	text-align:center;
 	margin: 10%;
@@ -46,4 +52,16 @@
 }
 .quadFooter{
 	margin:3%;
+}
+#ticketquad>a>img{
+	object-fit:cover;
+	width:100%;
+}
+.quad>#ticketquad{
+	background-color: rgb(130,130,160);
+	margin: 5%;
+	margin-top:2%;
+	margin-bottom:2%;
+	border-radius:5px;
+	transition:0.3s;
 }
